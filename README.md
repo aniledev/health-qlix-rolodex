@@ -20,6 +20,7 @@
 
 #0f74bc --- navbar background color
 #dcdcdc --- table heading
+#00aeef --- sort button
 
 ### Icons
 
