@@ -13,14 +13,21 @@
 ## Styling
 
 ### Fonts
+
 -lato health qlix website
 
 ### Colors
+
 #0f74bc --- navbar background color
-#00afef --- table heading
+#dcdcdc --- table heading
 
+### Icons
 
+- health qlix icon
 
 ## Upcoming Features
 
 ## Acknowledgements
+
+- vs faker https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker
+- faker.js https://github.com/marak/Faker.js
