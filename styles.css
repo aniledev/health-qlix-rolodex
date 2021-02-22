@@ -1,0 +1,18 @@
+#dropdownMenuButton {
+  color: black;
+  background-color: #70d9ff;
+  border: none;
+  text-decoration: none;
+}
+
+#dropdownMenuButton:hover {
+  background-color: #00aeef;
+  color: white;
+}
+
+#dropdownMenuButton:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(108 117 125 / 50%);
+  background-color: #00aeef;
+  color: white;
+}
