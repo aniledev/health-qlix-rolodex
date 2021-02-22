@@ -12,6 +12,9 @@
 
 ## Styling
 
+### Fonts
+-lato health qlix website
+
 ## Upcoming Features
 
 ## Acknowledgements
