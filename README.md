@@ -15,6 +15,12 @@
 ### Fonts
 -lato health qlix website
 
+### Colors
+#0f74bc --- navbar background color
+#00afef --- table heading
+
+
+
 ## Upcoming Features
 
 ## Acknowledgements
