@@ -35,3 +35,7 @@
 .fa-sort-alpha-down {
   margin-left: 5px;
 }
+
+label {
+  font-weight: 700;
+}
