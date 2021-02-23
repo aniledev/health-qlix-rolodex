@@ -17,6 +17,7 @@
   color: white;
 }
 
-.fa-plus-square {
+.fa-plus-square,
+.fa-user {
   margin-right: 5px;
 }
