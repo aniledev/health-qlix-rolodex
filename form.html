@@ -81,7 +81,66 @@
     </nav>
 
     <main class="container mt-5 mb-5">
-      <section>FORM GOES HERE</section>
+      <h3>Add New Customer Details</h3>
+      <form>
+        <div class="form-group">
+          <label for="input-name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="input-name"
+            placeholder="Jane Doe"
+          />
+        </div>
+        <div class="form-group">
+          <label for="input-address-1">Address Line 1</label>
+          <input
+            type="text"
+            class="form-control"
+            id="input-address-1"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="form-group">
+          <label for="input-address-2">Address Line 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="input-address-2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="input-city">City</label>
+            <input
+              type="text"
+              class="form-control"
+              id="input-city"
+              placeholder="Anywhere"
+            />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="input-state">State</label>
+            <select id="input-state" class="form-control">
+              <option selected>Choose state</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="input-zip">Zip</label>
+            <input
+              type="number"
+              class="form-control"
+              id="input-zip"
+              placeholder="12345"
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary add-customer">
+          Add Customer
+        </button>
+      </form>
     </main>
 
     <!-- Link to cuid for creating unique id -->
