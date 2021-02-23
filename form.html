@@ -87,9 +87,12 @@
           <label for="input-name"><i class="fas fa-user"></i>Name</label>
           <input
             type="text"
+            max="3"
+            min="100"
             class="form-control"
             id="input-name"
             placeholder="Jane Doe"
+            required
           />
         </div>
         <div class="form-group">
@@ -101,6 +104,9 @@
             class="form-control"
             id="input-address-1"
             placeholder="1234 Main St"
+            max="100"
+            min="5"
+            required
           />
         </div>
         <div class="form-group">
@@ -112,6 +118,7 @@
             class="form-control"
             id="input-address-2"
             placeholder="Apartment, studio, or floor"
+            max="30"
           />
         </div>
         <div class="form-row">
@@ -122,13 +129,15 @@
               class="form-control"
               id="input-city"
               placeholder="Anywhere"
+              max="100"
+              required
             />
           </div>
           <div class="form-group col-md-4">
             <label for="input-state"
               ><i class="fas fa-flag-usa"></i>State</label
             >
-            <select id="input-state" class="form-control">
+            <select id="input-state" class="form-control" required>
               <option selected>Choose state</option>
               <option value="">N/A</option>
               <option value="AK">Alaska</option>
@@ -188,10 +197,12 @@
           <div class="form-group col-md-2">
             <label for="input-zip"><i class="fas fa-map-pin"></i>Zip</label>
             <input
-              type="number"
+              type="text"
               class="form-control"
               id="input-zip"
               placeholder="12345"
+              max="15"
+              required
             />
           </div>
         </div>
