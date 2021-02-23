@@ -31,7 +31,9 @@
 .fa-building,
 .fa-flag-usa,
 .fa-map-pin,
-.fa-list-ol {
+.fa-list-ol,
+.fa-sticky-note,
+.fa-clipboard {
   margin-right: 5px;
 }
 
