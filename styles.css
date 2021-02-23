@@ -42,3 +42,11 @@
 label {
   font-weight: 700;
 }
+
+h5 {
+  line-height: 31px;
+}
+
+th {
+  width: 25%;
+}
